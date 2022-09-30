@@ -1,0 +1,130 @@
+body{
+    background-color: #FFDFD9;
+    min-height: 100%;
+    display:block;
+}
+.submitDefault{
+    /* border-radius: 8px; */
+    background-color: darksalmon;
+    border:none;
+    cursor: pointer;
+}
+.loginArea{
+    position:absolute;
+    top:1em;
+    right:1em;
+}
+h1{
+    text-align: center;
+}
+.bold{
+    font-weight: bold;
+}
+.mainContent{
+    width:60%;
+    height:100%;
+    margin-top:1em;
+    margin-left:20%;
+    font-size:1em;
+    background-color:#FFF;
+    padding:1em 0.5em;
+}
+.searchArea{
+    text-align: center;
+}
+.mainTable{
+    margin-top:1em;
+    border-collapse: collapse;
+    width:100%;
+    /* border:1px solid #000; */
+}
+.mainTable th{
+    background-color:gray;
+    text-align: left;
+}
+.mainTable td{
+    border-bottom:1px solid #000;
+}
+.mainTable > tbody tr:nth-child(odd) {
+    font-size: 1em;
+    /* background-color: lemonchiffon; */
+}
+.mainTable > tbody > tr > td:nth-child(3){
+    white-space: nowrap;
+}
+
+.titleArea{
+    text-align: center;
+}
+.bookInfo{
+    background-color: burlywood;
+}
+
+
+
+@media screen and (max-width: 640px) {
+    body{
+        margin:0px;
+        padding:0px;
+    }
+    .mainContent{
+        width:90%;
+        margin:0px 5%;
+        padding:0px;
+    }
+    .mainTable{
+        font-size:1em;
+        margin-top:1em;
+    }
+    .mainTable td,
+    .mainTable th{
+        display: block;
+        width:100%;
+    }
+    .mainTable th{
+        text-align: left;
+    }
+       
+}
+.divRow div{
+    display:inline-block;
+}
+button{
+    border-radius: 8px;
+    background-color: #EC6619;
+    border:none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #FFA669;
+}
+.button{
+    border-radius: 8px;
+    background-color: #EC6619;
+    border:none;
+    cursor: pointer;
+    font-size: 1em;
+    text-decoration-line: none;
+    color:black;
+    margin:0% 0.5em;
+    padding:0% 0.5em;
+}
+.button:hover{
+    background-color: #FFA669;
+}
+detail.html
+.comment{
+    border-bottom:1px solid #000;
+}
+textarea{
+    width:80%;
+}
+.center{
+    text-align: center;
+}
+.red{
+    color:red;
+}
+form {
+    display: inline-block;
+}
